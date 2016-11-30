@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/zaphyr
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2016/12/01 00:36
+" Last Change: 2016/12/01 00:45
 " ===============================================================
 
 set background=dark
@@ -16,8 +16,8 @@ let g:colors_name="zaphyr"
 
 hi ColorColumn guibg=#1C1C1C ctermbg=234
 hi Cursor guifg=#17252C ctermfg=235 guibg=#FFC600 ctermbg=220
-hi CursorColumn guibg=#FFC600 ctermbg=220
-hi CursorLine guibg=#FFC600 ctermbg=220
+hi CursorColumn guifg=#3A3A3A ctermfg=237 guibg=#FFC600 ctermbg=220
+hi CursorLine guifg=#3A3A3A ctermfg=237 guibg=#FFC600 ctermbg=220
 hi CursorLineNr guifg=#626262 ctermfg=241 guibg=#17252C ctermbg=235
 hi Directory guifg=#FFC600 ctermfg=220
 hi DiffAdd guifg=#3AD900 ctermfg=76
