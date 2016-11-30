@@ -1,0 +1,10 @@
+name: 'zaphyr'
+version: '1.0.0'
+license: 'MIT'
+author: 'Alvaro Muñoz (@pwntester)'
+url: 'http://github.com/pwntester/zaphyr'
+description: 'Zaphyr'
+colorschemes:
+  - name: zaphyr
+    background: 'dark'
+    palette: zaphyr
