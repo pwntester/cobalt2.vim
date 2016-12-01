@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/zaphyr
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2016/12/01 10:20
+" Last Change: 2016/12/01 15:33
 " ===============================================================
 
 set background=dark
@@ -59,8 +59,8 @@ hi Structure guifg=#0088FF ctermfg=33 gui=italic cterm=italic
 hi Special guifg=#88FF88 ctermfg=120
 hi Delimiter guifg=#668799 ctermfg=66
 hi StringDelimiter guifg=#668799 ctermfg=66
-hi Error guibg=#902020 ctermbg=88
-hi Todo guifg=#0088FF ctermfg=33 gui=italic cterm=italic
+hi Error guibg=#902020 ctermbg=88 gui=italic cterm=italic
+hi Todo guibg=#0088FF ctermbg=33 gui=italic cterm=italic
 hi ColorColumn guibg=#1C1C1C ctermbg=234
 hi Normal guifg=#FFFFFF ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237

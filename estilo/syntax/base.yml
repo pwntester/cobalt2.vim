@@ -69,8 +69,8 @@ SpecialComment: '' # Special
 Debug: '' # Special
 Underlined: ''
 Ignore: ''
-Error: '. dark_red .'
-Todo: 'dark_blue . i'
+Error: '. dark_red i'
+Todo: '. dark_blue i'
 ColorColumn: '. black .'
 Conceal: ''
 Normal: 'white -'
