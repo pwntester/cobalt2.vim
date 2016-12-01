@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/zaphyr
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2016/12/01 00:45
+" Last Change: 2016/12/01 10:20
 " ===============================================================
 
 set background=dark
@@ -14,11 +14,6 @@ if exists("syntax_on")
 endif
 let g:colors_name="zaphyr"
 
-hi ColorColumn guibg=#1C1C1C ctermbg=234
-hi Cursor guifg=#17252C ctermfg=235 guibg=#FFC600 ctermbg=220
-hi CursorColumn guifg=#3A3A3A ctermfg=237 guibg=#FFC600 ctermbg=220
-hi CursorLine guifg=#3A3A3A ctermfg=237 guibg=#FFC600 ctermbg=220
-hi CursorLineNr guifg=#626262 ctermfg=241 guibg=#17252C ctermbg=235
 hi Directory guifg=#FFC600 ctermfg=220
 hi DiffAdd guifg=#3AD900 ctermfg=76
 hi DiffAdded guifg=#3AD900 ctermfg=76
@@ -27,15 +22,11 @@ hi DiffDelete guifg=#1C1C1C ctermfg=234 guibg=#700009 ctermbg=1
 hi DiffText guifg=#8fbfdc ctermfg=110 guibg=#1C1C1C ctermbg=234 gui=reverse cterm=reverse
 hi DiffRemoved guifg=#FF628C ctermfg=204
 hi ErrorMsg guibg=#902020 ctermbg=88
-hi VertSplit guifg=#FFC600 ctermfg=220
+hi VertSplit guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#9E9E9E ctermfg=247 guibg=#444444 ctermbg=238 gui=italic cterm=italic
-hi FoldColumn guifg=#626262 ctermfg=241 guibg=#1C1C1C ctermbg=234
-hi SignColumn guifg=#626262 ctermfg=241 guibg=#3A3A3A ctermbg=237
-hi LineNr guifg=#626262 ctermfg=241 guibg=#17252C ctermbg=235
 hi MatchParen guifg=#FFFFFF ctermfg=15 guibg=#345FA8 ctermbg=61
 hi MoreMsg guifg=#88FF88 ctermfg=120
-hi NonText guifg=#626262 ctermfg=241 guibg=#17252C ctermbg=235
-hi Normal guifg=#FFFFFF ctermfg=15 guibg=#17252C ctermbg=235
+hi NonText guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PMenu guifg=#CCCCCC ctermfg=252 guibg=#3A3A3A ctermbg=237
 hi PMenuSel guifg=#3A3A3A ctermfg=237 guibg=#FFC600 ctermbg=220
 hi PmenuSbar guifg=#626262 ctermfg=241
@@ -53,7 +44,6 @@ hi TabLine guifg=#1C1C1C ctermfg=234 guibg=#BCBCBC ctermbg=250 gui=italic cterm=
 hi TabLineFill guifg=#9E9E9E ctermfg=247
 hi TabLineSel guifg=#1C1C1C ctermfg=234 guibg=#FFC600 ctermbg=220 gui=bold,italic cterm=bold,italic
 hi Title guifg=#70b950 ctermfg=71 gui=bold cterm=bold
-hi Visual guifg=#0050A4 ctermfg=25
 hi WildMenu guifg=#F0A0C0 ctermfg=217 guibg=#3A3A3A ctermbg=237
 hi Comment guifg=#0088FF ctermfg=33 gui=italic cterm=italic
 hi Constant guifg=#FF628C ctermfg=204
@@ -71,6 +61,22 @@ hi Delimiter guifg=#668799 ctermfg=66
 hi StringDelimiter guifg=#668799 ctermfg=66
 hi Error guibg=#902020 ctermbg=88
 hi Todo guifg=#0088FF ctermfg=33 gui=italic cterm=italic
+hi ColorColumn guibg=#1C1C1C ctermbg=234
+hi Normal guifg=#FFFFFF ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Cursor guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237
+hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237 gui=NONE cterm=NONE
+hi CursorLineNr guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE
+hi FoldColumn guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SignColumn guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LineNr guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Visual guifg=#FFFFFF ctermfg=15 guibg=#0050A4 ctermbg=25
+hi xmlTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlTagName guifg=#80FCFF ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlEndTag guifg=#80FCFF ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlAttrib guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlString guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlEqual guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 
 " ===================================
