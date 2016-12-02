@@ -8,3 +8,7 @@ colorschemes:
   - name: zaphyr
     background: 'dark'
     palette: zaphyr
+# lightline:
+#   - name: zaphyr
+#     palette: zaphyr
+#     style: zaphyr
