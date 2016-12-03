@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/zaphyr
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2016/12/02 21:16
+" Last Change: 2016/12/03 15:41
 " ===============================================================
 
 set background=dark
@@ -160,7 +160,7 @@ hi markdownIdDeclaration guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=N
 hi markdownId guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownUrl guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#0088FF ctermfg=33 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NeomakeErrorMsg guibg=#FF0000 ctermbg=9 gui=NONE cterm=NONE
+hi NeomakeErrorMsg guifg=#FF0000 ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NeomakeWarningMsg guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeHelp guifg=#345FA8 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeUp guifg=#345FA8 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
