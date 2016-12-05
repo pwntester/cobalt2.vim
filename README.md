@@ -1,1 +1,1 @@
-# zaphyr
+# vim-cobalt2
