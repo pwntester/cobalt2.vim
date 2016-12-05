@@ -1,10 +1,10 @@
 " ===============================================================
-" zaphyr
+" cobalt2
 " 
-" URL: http://github.com/pwntester/zaphyr
+" URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2016/12/03 15:41
+" Last Change: 2016/12/05 20:00
 " ===============================================================
 
 set background=dark
@@ -12,7 +12,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="zaphyr"
+let g:colors_name="cobalt2"
 
 hi Directory guifg=#FFC600 ctermfg=220
 hi DiffAdd guifg=#3AD900 ctermfg=76

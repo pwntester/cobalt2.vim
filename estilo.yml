@@ -1,14 +1,14 @@
-name: 'zaphyr'
+name: 'cobalt2'
 version: '1.0.0'
 license: 'MIT'
 author: 'Alvaro Muñoz (@pwntester)'
-url: 'http://github.com/pwntester/zaphyr'
-description: 'Zaphyr'
+url: 'http://github.com/pwntester/vim-cobalt2'
+description: 'Cobalt2 port for vim and lightline'
 colorschemes:
-  - name: zaphyr
+  - name: 'cobalt2'
     background: 'dark'
-    palette: zaphyr
-# lightline:
-#   - name: zaphyr
-#     palette: zaphyr
-#     style: zaphyr
+    palette: 'cobalt2'
+lightline:
+  - name: 'cobalt2'
+    palette: 'cobalt2'
+    style: 'cobalt2'
