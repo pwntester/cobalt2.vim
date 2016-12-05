@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2016/12/05 20:00
+" Last Change: 2016/12/05 21:12
 " ===============================================================
 
 set background=dark
@@ -136,7 +136,7 @@ hi link jsRegexpGroup regex_group
 hi link jsRegexpBoundary regex_boundary
 hi link jsRegexpCharClass regex_char_group
 hi link jsRegexpString regex_string
-hi jsRegexpMod guifg=#FF00FF ctermfg=13 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsRegexpMod guifg=#FE94FF ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsRegexpBackRef guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link javaScriptValue Constant
 hi javaScriptRegexpString guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

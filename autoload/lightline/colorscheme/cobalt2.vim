@@ -4,37 +4,37 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2016/12/05 20:00
+" Last Change: 2016/12/05 21:12
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
 
-let s:p.normal.left = [[["#00AAFF", 39], ["", ]], [["#444444", 238], ["", ]]]
-let s:p.normal.middle = [[["#3A3A3A", 237], ["", ]]]
-let s:p.normal.right = [[["#444444", 238], ["", ]], [["#626262", 241], ["", ]]]
-let s:p.normal.error = [[["#902020", 88], ["", ]]]
-let s:p.normal.warning = [[["#FFC600", 220], ["", ]]]
+let s:p.normal.left = [[["#CCCCCC", 252], ["#0050A4", 25]], [["#CCCCCC", 252], ["#626262", 241]]]
+let s:p.normal.middle = [[["#CCCCCC", 252], ["#3A3A3A", 237]]]
+let s:p.normal.right = [[["#3A3A3A", 237], ["#9E9E9E", 247]], [["#CCCCCC", 252], ["#626262", 241]]]
+let s:p.normal.error = [[["#CCCCCC", 252], ["#902020", 88]]]
+let s:p.normal.warning = [[["#3A3A3A", 237], ["#FF9D00", 214]]]
 
-let s:p.inactive.left = [[["#3A3A3A", 237], ["", ]], [["#444444", 238], ["", ]]]
-let s:p.inactive.middle = [[["#3A3A3A", 237], ["", ]]]
-let s:p.inactive.right = [[["#444444", 238], ["", ]], [["#626262", 241], ["", ]]]
+let s:p.inactive.left = [[["#CCCCCC", 252], ["#3A3A3A", 237]], [["#CCCCCC", 252], ["#626262", 241]]]
+let s:p.inactive.middle = [[["#CCCCCC", 252], ["#3A3A3A", 237]]]
+let s:p.inactive.right = [[["#3A3A3A", 237], ["#9E9E9E", 247]], [["#CCCCCC", 252], ["#626262", 241]]]
 
-let s:p.insert.left = [[["#88FF88", 120], ["", ]], [["#444444", 238], ["", ]]]
-let s:p.insert.middle = [[["#3A3A3A", 237], ["", ]]]
-let s:p.insert.right = [[["#444444", 238], ["", ]], [["#626262", 241], ["", ]]]
+let s:p.insert.left = [[["#3A3A3A", 237], ["#70b950", 71]], [["#CCCCCC", 252], ["#626262", 241]]]
+let s:p.insert.middle = [[["#CCCCCC", 252], ["#3A3A3A", 237]]]
+let s:p.insert.right = [[["#3A3A3A", 237], ["#9E9E9E", 247]], [["#CCCCCC", 252], ["#626262", 241]]]
 
-let s:p.replace.left = [[["#902020", 88], ["", ]], [["#444444", 238], ["", ]]]
-let s:p.replace.middle = [[["#3A3A3A", 237], ["", ]]]
-let s:p.replace.right = [[["#444444", 238], ["", ]], [["#626262", 241], ["", ]]]
+let s:p.replace.left = [[["#EE80E1", 212], ["#902020", 88]], [["#CCCCCC", 252], ["#626262", 241]]]
+let s:p.replace.middle = [[["#CCCCCC", 252], ["#3A3A3A", 237]]]
+let s:p.replace.right = [[["#3A3A3A", 237], ["#9E9E9E", 247]], [["#CCCCCC", 252], ["#626262", 241]]]
 
-let s:p.visual.left = [[["#FF9D00", 214], ["", ]], [["#444444", 238], ["", ]]]
-let s:p.visual.middle = [[["#3A3A3A", 237], ["", ]]]
-let s:p.visual.right = [[["#444444", 238], ["", ]], [["#626262", 241], ["", ]]]
+let s:p.visual.left = [[["#3A3A3A", 237], ["#FF9D00", 214]], [["#CCCCCC", 252], ["#626262", 241]]]
+let s:p.visual.middle = [[["#CCCCCC", 252], ["#3A3A3A", 237]]]
+let s:p.visual.right = [[["#3A3A3A", 237], ["#9E9E9E", 247]], [["#CCCCCC", 252], ["#626262", 241]]]
 
-let s:p.tabline.left = [[["#626262", 241], ["", ]]]
-let s:p.tabline.tabsel = [[["#FF9D00", 214], ["", ]]]
-let s:p.tabline.middle = [[["#3A3A3A", 237], ["", ]]]
-let s:p.tabline.right = [[["#626262", 241], ["", ]]]
+let s:p.tabline.left = [[["#CCCCCC", 252], ["#3A3A3A", 237]]]
+let s:p.tabline.tabsel = [[["#CCCCCC", 252], ["#0050A4", 25]]]
+let s:p.tabline.middle = [[["#3A3A3A", 237], ["#3A3A3A", 237]]]
+let s:p.tabline.right = [[["#CCCCCC", 252], ["#3A3A3A", 237]]]
 
 let g:lightline#colorscheme#cobalt2#palette = lightline#colorscheme#flatten(s:p)
 
