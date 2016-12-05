@@ -1,1 +1,1 @@
-# vim-cobalt2
+# cobalt2.vim
