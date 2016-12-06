@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2016/12/05 21:12
+" Last Change: 2016/12/06 12:15
 " ===============================================================
 
 set background=dark
@@ -111,6 +111,8 @@ hi cssMediaProp guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi cssPageProp guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassName guifg=#3AD900 ctermfg=76 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssUnitDecorators guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi deniteMatched guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi deniteMatchedChar guifg=#00AAFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlItalic guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlEndTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

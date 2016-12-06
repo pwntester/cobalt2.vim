@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2016/12/05 21:12
+" Last Change: 2016/12/06 12:15
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
