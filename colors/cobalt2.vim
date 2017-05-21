@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2016/12/06 12:15
+" Last Change: 2017/05/21 18:39
 " ===============================================================
 
 set background=dark
@@ -61,7 +61,7 @@ hi Delimiter guifg=#668799 ctermfg=66
 hi StringDelimiter guifg=#668799 ctermfg=66
 hi Error guibg=#902020 ctermbg=88 gui=italic cterm=italic
 hi Todo guibg=#0088FF ctermbg=33 gui=italic cterm=italic
-hi ColorColumn guibg=#1C1C1C ctermbg=234
+hi ColorColumn guibg=#17252c ctermbg=235
 hi Normal guifg=#FFFFFF ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237 gui=NONE cterm=NONE
@@ -111,8 +111,88 @@ hi cssMediaProp guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi cssPageProp guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassName guifg=#3AD900 ctermfg=76 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssUnitDecorators guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi deniteMatched guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi deniteMatched guifg=#00AAFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi deniteMatchedChar guifg=#00AAFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link FortifyAuditPaneHelp Comment
+hi link FortifyAuditPaneHelpKey Identifier
+hi link FortifyAuditPaneHelpTitle PreProc
+hi link FortifyAuditPaneCategoryCount Title
+hi link FortifyAuditPaneDigit Text
+hi link FortifyAuditPaneInfo Title
+hi link FortifyAuditPaneTraces Title
+hi link FortifyAuditPaneIssue Statement
+hi link FortifyAuditPaneFoldIcon Title
+hi link FortifyAuditPaneAltFoldIcon Keyword
+hi link FortifyAuditPaneBracket Title
+hi link FortifyAuditPaneRule Title
+hi link FortifyAuditPaneFact Type
+hi FortifyAuditPaneInCallIcon guifg=#3AD900 ctermfg=76 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneInOutCallIcon guifg=#00AAFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneOutCallIcon guifg=#FF0000 ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneReadGlobalIcon guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneAssignGlobalIcon guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneAssignIcon guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneReturnIcon guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneExternalEntry guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneSeparator guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneRuleIcon guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneFile guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneBranchTakenIcon guifg=#3AD900 ctermfg=76 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneBranchNotTakenIcon guifg=#FF0000 ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneDefaultIcon guifg=#00AAFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneJumpIcon guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneFriorityLow guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneFriorityMedium guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneFriorityHigh guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneFriorityCritical guifg=#00AAFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link FortifyTestPaneCmd Comment
+hi link FortifyTestPaneFile Title
+hi FortifyTestPanePassed guifg=#3AD900 ctermfg=76 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyTestPaneFailed guifg=#FF0000 ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link FortifyCategoryMapping Title
+hi link FortifyDefinitionCharacterizationProperty Tag
+hi link FortifyDefinitionLineComment Comment
+hi link FortifyDefinitionComment Comment
+hi link FortifyDefinitionString1 String
+hi link FortifyDefinitionString2 String
+hi link FortifyDefinitionTaintFlag Function
+hi link FortifyDefinitionTaintSign Identifier
+hi link FortifyDefinitionTaintOperator Identifier
+hi link FortifyDefinitionForeachKeyword Tag
+hi link FortifyDescriptionPlaintext Function
+hi link FortifyDescriptionXMLAttribute Function
+hi FortifyDescriptionPreString guifg=#FFFFFF ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link FortifyNSTSourceinfo Comment
+hi link FortifyNSTOperator PreProc
+hi link FortifyNSTString String
+hi link FortifyNSTType Type
+hi link FortifyRulepackRuleIDDash Identifier
+hi link FortifyRulepackRuleIDChars Function
+hi link FortifyRulepackTaintFlagSign Identifier
+hi link FortifyRulepackTaintFlag Function
+hi link FortifyRulepackRegexpString Identifier
+hi link FortifyRulepackRegexpBoundary Identifier
+hi link FortifyRulepackRegexpQuantifier Identifier
+hi link FortifyRulepackRegexpOr Identifier
+hi link FortifyRulepackRegexpMod Identifier
+hi link FortifyRulepackRegexpBackRef Identifier
+hi link FortifyRulepackRegexpGroup Identifier
+hi link FortifyRulepackRegexpCharClass Identifier
+hi link FortifyStructuralType Tag
+hi link FortifyStructuralString String
+hi link FortifyStructuralOperator Identifier
+hi link FortifyStructuralMatches Identifier
+hi link FortifyStructuralVariable Type
+hi link FortifyStructuralLineComment Comment
+hi link FortifyStructuralComment Comment
+hi link FortifyStructuralRegexpString Identifier
+hi link FortifyStructuralRegexpBoundary Identifier
+hi link FortifyStructuralRegexpQuantifier Identifier
+hi link FortifyStructuralRegexpOr Identifier
+hi link FortifyStructuralRegexpMod Identifier
+hi link FortifyStructuralRegexpBackRef Identifier
+hi link FortifyStructuralRegexpGroup Identifier
+hi link FortifyStructuralRegexpCharClass Identifier
 hi htmlItalic guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlEndTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
