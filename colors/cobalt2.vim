@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2018/12/06 18:10
+" Last Change: 2018/12/06 18:13
 " ===============================================================
 
 set background=dark
@@ -62,11 +62,11 @@ hi Delimiter guifg=#668799 ctermfg=66
 hi StringDelimiter guifg=#668799 ctermfg=66
 hi Error guibg=#902020 ctermbg=88 gui=italic cterm=italic
 hi Todo guibg=#0088FF ctermbg=33 gui=italic cterm=italic
-hi ColorColumn guibg=#17252c ctermbg=235
-hi Normal guifg=#FFFFFF ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ColorColumn guibg=#020511 ctermbg=232
+hi Normal guifg=#FFFFFF ctermfg=15 guibg=#17252c ctermbg=235 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#1A1A1A ctermbg=234 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE
 hi FoldColumn guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignColumn guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
