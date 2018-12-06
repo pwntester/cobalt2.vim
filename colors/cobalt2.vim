@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2018/12/06 18:13
+" Last Change: 2018/12/06 18:15
 " ===============================================================
 
 set background=dark
@@ -297,7 +297,7 @@ hi rubyRegexpAnchor guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE c
 hi rubyRegexpCharClass guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyRegexpSpecial guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyRegexp guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi SignifySignAdd guifg=#88FF88 ctermfg=120
+hi SignifySignAdd guifg=#3AD900 ctermfg=76
 hi SignifySignChange guifg=#0088FF ctermfg=33
 hi SignifySignDelete guifg=#FF0000 ctermfg=9
 hi link vimOper Normal
