@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2018/12/07 09:54
+" Last Change: 2018/12/07 09:56
 " ===============================================================
 
 set background=dark
@@ -35,7 +35,7 @@ hi Question guifg=#3AD900 ctermfg=76
 hi Search guifg=#FFFFFF ctermfg=15 guibg=#0088FF ctermbg=33
 hi IncSearch guifg=#FFFFFF ctermfg=15 guibg=#0088FF ctermbg=33
 hi SpecialKey guifg=#444444 ctermfg=238 guibg=#1C1C1C ctermbg=234
-hi SpellBad guifg=#FFFFFF ctermfg=15 guibg=#FF0000 ctermbg=9
+hi SpellBad guifg=#FFFFFF ctermfg=15 guibg=#FF0000 ctermbg=9 gui=NONE cterm=NONE
 hi SpellLocal guibg=#2D7067 ctermbg=242 gui=underline cterm=underline
 hi SpellCap guibg=#0000df ctermbg=20 gui=underline cterm=underline
 hi SpellRare guibg=#4F0037 ctermbg=53 gui=underline cterm=underline
