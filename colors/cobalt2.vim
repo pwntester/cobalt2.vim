@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2018/12/06 18:15
+" Last Change: 2018/12/07 09:54
 " ===============================================================
 
 set background=dark
@@ -35,7 +35,7 @@ hi Question guifg=#3AD900 ctermfg=76
 hi Search guifg=#FFFFFF ctermfg=15 guibg=#0088FF ctermbg=33
 hi IncSearch guifg=#FFFFFF ctermfg=15 guibg=#0088FF ctermbg=33
 hi SpecialKey guifg=#444444 ctermfg=238 guibg=#1C1C1C ctermbg=234
-hi SpellBad guifg=#FF0000 ctermfg=9 guibg=#FFFFFF ctermbg=15
+hi SpellBad guifg=#FFFFFF ctermfg=15 guibg=#FF0000 ctermbg=9
 hi SpellLocal guibg=#2D7067 ctermbg=242 gui=underline cterm=underline
 hi SpellCap guibg=#0000df ctermbg=20 gui=underline cterm=underline
 hi SpellRare guibg=#4F0037 ctermbg=53 gui=underline cterm=underline
@@ -65,8 +65,8 @@ hi Todo guibg=#0088FF ctermbg=33 gui=italic cterm=italic
 hi ColorColumn guibg=#020511 ctermbg=232
 hi Normal guifg=#FFFFFF ctermfg=15 guibg=#17252c ctermbg=235 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237
-hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#1A1A1A ctermbg=234 gui=NONE cterm=NONE
+hi CursorColumn guibg=#3A3A3A ctermbg=237 gui=NONE cterm=NONE
+hi CursorLine guibg=#111122 ctermbg=233
 hi CursorLineNr guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE
 hi FoldColumn guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignColumn guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
