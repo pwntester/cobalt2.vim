@@ -152,6 +152,7 @@ hi FortifyAuditPaneFriorityLow guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE
 hi FortifyAuditPaneFriorityMedium guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyAuditPaneFriorityHigh guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyAuditPaneFriorityCritical guifg=#FF0000 ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneFriorityUnknown guifg=#EB939A ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link FortifyTestPaneCmd Comment
 hi link FortifyTestPaneFile Title
 hi FortifyTestPanePassed guifg=#3AD900 ctermfg=76 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
