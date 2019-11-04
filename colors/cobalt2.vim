@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2018/12/07 09:56
+" Last Change: 2019/11/04 10:47
 " ===============================================================
 
 set background=dark
@@ -151,7 +151,7 @@ hi FortifyAuditPaneJumpIcon guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gu
 hi FortifyAuditPaneFriorityLow guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyAuditPaneFriorityMedium guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyAuditPaneFriorityHigh guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi FortifyAuditPaneFriorityCritical guifg=#FF0000 ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneFriorityCritical guifg=#FF0000 ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyAuditPaneFriorityUnknown guifg=#EB939A ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link FortifyTestPaneCmd Comment
 hi link FortifyTestPaneFile Title
@@ -226,7 +226,7 @@ hi link jsRegexpGroup regex_group
 hi link jsRegexpBoundary regex_boundary
 hi link jsRegexpCharClass regex_char_group
 hi link jsRegexpString regex_string
-hi jsRegexpMod guifg=#FE94FF ctermfg=213 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsRegexpMod guifg=#EB939A ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsRegexpBackRef guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link javaScriptValue Constant
 hi javaScriptRegexpString guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

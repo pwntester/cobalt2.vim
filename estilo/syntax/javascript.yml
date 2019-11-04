@@ -13,7 +13,7 @@ jsRegexpGroup: '@regex_group'
 jsRegexpBoundary: '@regex_boundary'
 jsRegexpCharClass: '@regex_char_group'
 jsRegexpString: '@regex_string'
-jsRegexpMod: 'pink'
+jsRegexpMod: 'dirty_pink'
 jsRegexpBackRef: 'light_orange'
 javaScriptValue: '@Constant' #Constant
 javaScriptRegexpString: 'light_green' # String
