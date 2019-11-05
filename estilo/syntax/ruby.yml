@@ -1,5 +1,5 @@
 rubyBlockParameterList: 'white'
-rubyInterpolation: 'lighter_green'
+rubyInterpolation: 'light_green'
 rubyClass: 'dark_orange' # rubyDefine
 rubyModule: '@rubyClass' # rubyDefine
 rubyMethodExceptional: '' # rubyDefine

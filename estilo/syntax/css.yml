@@ -71,7 +71,7 @@ cssIEUIAttr: '' # cssAttr
 cssAuralAttr: '' # cssAttr
 cssRenderAttr: '' # cssAttr
 cssCommonAttr: 'light_yellow' # cssAttr
-cssPseudoClassId: 'light_orange' # PreProc
+cssPseudoClassId: 'dark_orange' # PreProc
 cssPseudoClassLang: '' # Constant
 cssValueLength: 'light_yellow' # Number
 cssValueInteger: '' # Number

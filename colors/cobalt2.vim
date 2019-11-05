@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2019/11/04 10:47
+" Last Change: 2019/11/05 18:29
 " ===============================================================
 
 set background=dark
@@ -24,7 +24,7 @@ hi Directory guifg=#FFC600 ctermfg=220
 hi ErrorMsg guibg=#902020 ctermbg=88
 hi VertSplit guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#9E9E9E ctermfg=247 guibg=#444444 ctermbg=238 gui=italic cterm=italic
-hi MatchParen guifg=#FFFFFF ctermfg=15 guibg=#345FA8 ctermbg=61
+hi MatchParen guifg=#FFFFFF ctermfg=15 guibg=#0050A4 ctermbg=25
 hi MoreMsg guifg=#88FF88 ctermfg=120
 hi NonText guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PMenu guifg=#CCCCCC ctermfg=252 guibg=#3A3A3A ctermbg=237
@@ -36,16 +36,16 @@ hi Search guifg=#FFFFFF ctermfg=15 guibg=#0088FF ctermbg=33
 hi IncSearch guifg=#FFFFFF ctermfg=15 guibg=#0088FF ctermbg=33
 hi SpecialKey guifg=#444444 ctermfg=238 guibg=#1C1C1C ctermbg=234
 hi SpellBad guifg=#FFFFFF ctermfg=15 guibg=#FF0000 ctermbg=9 gui=NONE cterm=NONE
-hi SpellLocal guibg=#2D7067 ctermbg=242 gui=underline cterm=underline
-hi SpellCap guibg=#0000df ctermbg=20 gui=underline cterm=underline
-hi SpellRare guibg=#4F0037 ctermbg=53 gui=underline cterm=underline
+hi SpellLocal guibg=#3AD900 ctermbg=76 gui=underline cterm=underline
+hi SpellCap guibg=#0050A4 ctermbg=25 gui=underline cterm=underline
+hi SpellRare guibg=#FF0000 ctermbg=9 gui=underline cterm=underline
 hi StatusLine guifg=#1C1C1C ctermfg=234 guibg=#CCCCCC ctermbg=252 gui=italic cterm=italic
 hi StatusLineNC guifg=#FFFFFF ctermfg=15 guibg=#444444 ctermbg=238 gui=italic cterm=italic
 hi TabLine guifg=#FFFFFF ctermfg=15 guibg=#3A3A3A ctermbg=237 gui=underline cterm=underline
 hi TabLineFill guifg=#FFFFFF ctermfg=15 guibg=#9E9E9E ctermbg=247 gui=underline cterm=underline
 hi TabLineSel guifg=#3A3A3A ctermfg=237 guibg=#FFC600 ctermbg=220 gui=bold,underline cterm=bold,underline
-hi Title guifg=#70b950 ctermfg=71 gui=bold cterm=bold
-hi WildMenu guifg=#F0A0C0 ctermfg=217 guibg=#3A3A3A ctermbg=237
+hi Title guifg=#3AD900 ctermfg=76 gui=bold cterm=bold
+hi WildMenu guifg=#EB939A ctermfg=174 guibg=#3A3A3A ctermbg=237
 hi Comment guifg=#0088FF ctermfg=33 gui=italic cterm=italic
 hi Constant guifg=#FF628C ctermfg=204
 hi String guifg=#3AD900 ctermfg=76
@@ -55,7 +55,7 @@ hi Statement guifg=#FF9A00 ctermfg=208
 hi Operator guifg=#0088FF ctermfg=33 gui=italic cterm=italic
 hi PreProc guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#FFC600 ctermfg=220
-hi StorageClass guifg=#FF9D00 ctermfg=214
+hi StorageClass guifg=#FF9A00 ctermfg=208
 hi Structure guifg=#0088FF ctermfg=33 gui=italic cterm=italic
 hi Special guifg=#88FF88 ctermfg=120
 hi Delimiter guifg=#668799 ctermfg=66
@@ -66,7 +66,7 @@ hi ColorColumn guibg=#020511 ctermbg=232
 hi Normal guifg=#FFFFFF ctermfg=15 guibg=#17252c ctermbg=235 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237
 hi CursorColumn guibg=#3A3A3A ctermbg=237 gui=NONE cterm=NONE
-hi CursorLine guibg=#111122 ctermbg=233
+hi CursorLine guibg=#17252c ctermbg=235
 hi CursorLineNr guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE
 hi FoldColumn guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignColumn guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -99,7 +99,7 @@ hi cssTextAttr guifg=#F2ED7F ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi cssTransitionAttr guifg=#F2ED7F ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssUIAttr guifg=#F2ED7F ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssCommonAttr guifg=#F2ED7F ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssPseudoClassId guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssPseudoClassId guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssValueLength guifg=#F2ED7F ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssValueNumber guifg=#F2ED7F ctermfg=228 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssIdentifier guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -149,7 +149,7 @@ hi FortifyAuditPaneBranchNotTakenIcon guifg=#FF0000 ctermfg=9 guibg=NONE ctermbg
 hi FortifyAuditPaneDefaultIcon guifg=#00AAFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyAuditPaneJumpIcon guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyAuditPaneFriorityLow guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi FortifyAuditPaneFriorityMedium guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyAuditPaneFriorityMedium guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyAuditPaneFriorityHigh guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyAuditPaneFriorityCritical guifg=#FF0000 ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyAuditPaneFriorityUnknown guifg=#EB939A ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -207,18 +207,18 @@ hi htmlEndTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi htmlArg guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTagName guifg=#80FCFF ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlSpecialTagName guifg=#00AAFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi htmlH1 guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlH1 guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTitle guifg=#967EFB ctermfg=105 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlString guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlEvent guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsFunction guifg=#EE80E1 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFunction guifg=#EB939A ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFuncCall guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsOperator guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsOperator guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsStorageClass guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFuncArgs guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsBuiltins guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsBuiltins guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsUndefined guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsThis guifg=#EE80E1 ctermfg=212 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsThis guifg=#EB939A ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsPrototype guifg=#EB939A ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsRegexpOr regex_or
 hi link jsRegexpQuantifier regex_quantifier
@@ -227,7 +227,7 @@ hi link jsRegexpBoundary regex_boundary
 hi link jsRegexpCharClass regex_char_group
 hi link jsRegexpString regex_string
 hi jsRegexpMod guifg=#EB939A ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsRegexpBackRef guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsRegexpBackRef guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link javaScriptValue Constant
 hi javaScriptRegexpString guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonKeywordMatch guifg=#0088FF ctermfg=33 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -252,8 +252,8 @@ hi markdownUrl guifg=#FF628C ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi markdownCodeDelimiter guifg=#0088FF ctermfg=33 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NeomakeErrorMsg guifg=#FF0000 ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NeomakeWarningMsg guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NERDTreeHelp guifg=#345FA8 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NERDTreeUp guifg=#345FA8 ctermfg=61 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeHelp guifg=#0050A4 ctermfg=25 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeUp guifg=#0050A4 ctermfg=25 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#FF0000 ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeDir guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -282,7 +282,7 @@ hi link phpVarSelector Identifier
 hi link pythonOperator Statement
 hi qfLineNr guifg=#0088FF ctermfg=33 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyBlockParameterList guifg=#FFFFFF ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubyInterpolation guifg=#9EFF80 ctermfg=156 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rubyInterpolation guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyClass guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link rubyModule rubyClass
 hi link rubyGlobalVariable rubyInstanceVariable

@@ -5,7 +5,7 @@ htmlArg: 'dark_orange' # Type
 htmlTagName: 'light_blue' # htmlStatement
 htmlSpecialTagName: 'blue' # Exception
 htmlValue: '' # String
-htmlH1: 'light_orange' # Title
+htmlH1: 'dark_orange' # Title
 htmlH2: '' # htmlH1
 htmlH3: '' # htmlH2
 htmlH4: '' # htmlH3
