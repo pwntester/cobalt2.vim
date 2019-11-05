@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2019/11/05 18:29
+" Last Change: 2019/11/05 22:18
 " ===============================================================
 
 set background=dark
@@ -14,16 +14,29 @@ if exists("syntax_on")
 endif
 let g:colors_name="cobalt2"
 
+
+let Italic = ""
+if exists('g:cobalt2_italic')
+  let Italic = "italic"
+endif
+let g:cobalt2_italic = get(g:, 'cobalt2_italic', 0)
+
+let Bold = ""
+if exists('g:cobalt2_bold')
+  let Bold = "bold"
+endif
+
+let g:cobalt2_bold = get(g:, 'cobalt2_bold', 0)
 hi ALEVirtualTextError guifg=#FF0000 ctermfg=9
 hi ALEVirtualTextWarning guifg=#0088FF ctermfg=33
 hi ALEError guifg=#FF0000 ctermfg=9
 hi ALEErrorSign guifg=#FF0000 ctermfg=9
 hi ALEWarning guifg=#0088FF ctermfg=33
 hi ALEWarningSign guifg=#0088FF ctermfg=33
-hi Directory guifg=#FFC600 ctermfg=220
+hi Directory guifg=#668799 ctermfg=66
 hi ErrorMsg guibg=#902020 ctermbg=88
 hi VertSplit guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Folded guifg=#9E9E9E ctermfg=247 guibg=#444444 ctermbg=238 gui=italic cterm=italic
+hi Folded guifg=#9E9E9E ctermfg=247 guibg=#444444 ctermbg=238 gui=Italic cterm=Italic
 hi MatchParen guifg=#FFFFFF ctermfg=15 guibg=#0050A4 ctermbg=25
 hi MoreMsg guifg=#88FF88 ctermfg=120
 hi NonText guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -39,29 +52,29 @@ hi SpellBad guifg=#FFFFFF ctermfg=15 guibg=#FF0000 ctermbg=9 gui=NONE cterm=NONE
 hi SpellLocal guibg=#3AD900 ctermbg=76 gui=underline cterm=underline
 hi SpellCap guibg=#0050A4 ctermbg=25 gui=underline cterm=underline
 hi SpellRare guibg=#FF0000 ctermbg=9 gui=underline cterm=underline
-hi StatusLine guifg=#1C1C1C ctermfg=234 guibg=#CCCCCC ctermbg=252 gui=italic cterm=italic
-hi StatusLineNC guifg=#FFFFFF ctermfg=15 guibg=#444444 ctermbg=238 gui=italic cterm=italic
+hi StatusLine guifg=#1C1C1C ctermfg=234 guibg=#CCCCCC ctermbg=252 gui=Italic cterm=Italic
+hi StatusLineNC guifg=#FFFFFF ctermfg=15 guibg=#444444 ctermbg=238 gui=Italic cterm=Italic
 hi TabLine guifg=#FFFFFF ctermfg=15 guibg=#3A3A3A ctermbg=237 gui=underline cterm=underline
 hi TabLineFill guifg=#FFFFFF ctermfg=15 guibg=#9E9E9E ctermbg=247 gui=underline cterm=underline
-hi TabLineSel guifg=#3A3A3A ctermfg=237 guibg=#FFC600 ctermbg=220 gui=bold,underline cterm=bold,underline
-hi Title guifg=#3AD900 ctermfg=76 gui=bold cterm=bold
+hi TabLineSel guifg=#3A3A3A ctermfg=237 guibg=#FFC600 ctermbg=220 gui=Bold,underline cterm=Bold,underline
+hi Title guifg=#3AD900 ctermfg=76 gui=Bold cterm=Bold
 hi WildMenu guifg=#EB939A ctermfg=174 guibg=#3A3A3A ctermbg=237
-hi Comment guifg=#0088FF ctermfg=33 gui=italic cterm=italic
+hi Comment guifg=#0088FF ctermfg=33 gui=Italic cterm=Italic
 hi Constant guifg=#FF628C ctermfg=204
 hi String guifg=#3AD900 ctermfg=76
 hi Identifier guifg=#FF9A00 ctermfg=208
 hi Function guifg=#FFC600 ctermfg=220
 hi Statement guifg=#FF9A00 ctermfg=208
-hi Operator guifg=#0088FF ctermfg=33 gui=italic cterm=italic
+hi Operator guifg=#0088FF ctermfg=33 gui=Italic cterm=Italic
 hi PreProc guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#FFC600 ctermfg=220
 hi StorageClass guifg=#FF9A00 ctermfg=208
-hi Structure guifg=#0088FF ctermfg=33 gui=italic cterm=italic
+hi Structure guifg=#0088FF ctermfg=33 gui=Italic cterm=Italic
 hi Special guifg=#88FF88 ctermfg=120
 hi Delimiter guifg=#668799 ctermfg=66
 hi StringDelimiter guifg=#668799 ctermfg=66
-hi Error guibg=#902020 ctermbg=88 gui=italic cterm=italic
-hi Todo guibg=#0088FF ctermbg=33 gui=italic cterm=italic
+hi Error guibg=#902020 ctermbg=88 gui=Italic cterm=Italic
+hi Todo guibg=#0088FF ctermbg=33 gui=Italic cterm=Italic
 hi ColorColumn guibg=#020511 ctermbg=232
 hi Normal guifg=#FFFFFF ctermfg=15 guibg=#17252c ctermbg=235 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237
@@ -112,6 +125,7 @@ hi cssMediaProp guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi cssPageProp guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassName guifg=#3AD900 ctermfg=76 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssUnitDecorators guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Defx_filename_root guifg=#668799 ctermfg=66
 hi deniteMatched guifg=#00AAFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi deniteMatchedChar guifg=#00AAFF ctermfg=39 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#1C1C1C ctermfg=234 guibg=#3AD900 ctermbg=76
@@ -201,6 +215,11 @@ hi link FortifyStructuralRegexpMod Identifier
 hi link FortifyStructuralRegexpBackRef Identifier
 hi link FortifyStructuralRegexpGroup Identifier
 hi link FortifyStructuralRegexpCharClass Identifier
+hi FZF_fg guifg=#CCCCCC ctermfg=252 guibg=#3A3A3A ctermbg=237
+hi FZF_bg guibg=#020511 ctermbg=232
+hi FZF_fg_current guifg=#FF9A00 ctermfg=208
+hi FZF_bg_current guifg=#FFFFFF ctermfg=15 guibg=#17252c ctermbg=235 gui=NONE cterm=NONE
+hi FZF_fg_matched guifg=#0088FF ctermfg=33 gui=Italic cterm=Italic
 hi htmlItalic guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlEndTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -301,6 +320,15 @@ hi rubyRegexp guifg=#88FF88 ctermfg=120 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi SignifySignAdd guifg=#3AD900 ctermfg=76
 hi SignifySignChange guifg=#0088FF ctermfg=33
 hi SignifySignDelete guifg=#FF0000 ctermfg=9
+hi lscDiagnosticError guifg=NONE ctermfg=NONE
+hi lscVTDiagnosticError guifg=#FF0000 ctermfg=9
+hi lscSignDiagnosticError guifg=#FF0000 ctermfg=9
+hi lscDiagnosticWarning guifg=NONE ctermfg=NONE
+hi lscVTDiagnosticWarning guifg=#FFC600 ctermfg=220
+hi lscSignDiagnosticWarning guifg=#FFC600 ctermfg=220
+hi lscDiagnosticInfo guifg=NONE ctermfg=NONE
+hi lscVTDiagnosticInfo guifg=#0088FF ctermfg=33
+hi lscSignDiagnosticInfo guifg=#0088FF ctermfg=33
 hi link vimOper Normal
 hi xmlTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTagName guifg=#80FCFF ctermfg=123 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -311,6 +339,6 @@ hi xmlEqual guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 
 
 " ===================================
-" Generated by Estilo 1.3.3
+" Generated by Estilo 1.4.1
 " https://github.com/jacoborus/estilo
 " ===================================

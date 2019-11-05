@@ -1,7 +1,4 @@
-# BASE UI
-#fun! s:X(group, fg, bg, attr, lcfg, lcbg)
-# guifg guibg text_styles
-Directory: 'yellow . .'
+Directory: 'dirty_blue . .'
 ErrorMsg: '. dark_red .'
 VertSplit: 'dark_grey -'
 Folded: 'light_grey darker_grey i'
@@ -29,39 +26,38 @@ TabLineSel: 'darkest_grey yellow bu'
 Title: 'green . b'
 WarningMsg: ''
 WildMenu: 'dirty_pink darkest_grey .'
-# BASE SYNTAX
 Comment: 'dark_blue . i'
 Constant: 'dark_pink . .'
-String: 'green . .' # Constant
-Character: '' # Constant
-Boolean: '' # Constant
-Number: '' # Constant
-Float: '' # Constant
+String: 'green . .'
+Character: ''
+Boolean: ''
+Number: ''
+Float: ''
 Identifier: 'dark_orange . .'
-Function: 'yellow . .' # Identifier
+Function: 'yellow . .'
 Statement: 'dark_orange . .'
-Conditional: '' # Statement
-Repeat: '' # Statement
-Label: '' # Statement
-Operator: 'dark_blue . i' # Statement
-Keyword: '' # Statement
-Exception: '' # Statement
+Conditional: ''
+Repeat: ''
+Label: ''
+Operator: 'dark_blue . i'
+Keyword: ''
+Exception: ''
 PreProc: 'dark_orange'
-Include: '' # PreProc
-Define: '' # PreProc
-Macro: '' # PreProc
-PreCondit: '' # PreProc
+Include: ''
+Define: ''
+Macro: ''
+PreCondit: ''
 Type: 'yellow . .'
-StorageClass: 'dark_orange . .' # Type
-Structure: 'dark_blue . i' # Type
-Typedef: '' # Type
+StorageClass: 'dark_orange . .'
+Structure: 'dark_blue . i'
+Typedef: ''
 Special: 'light_green . .'
-SpecialChar: '' # Special
-Tag: '' # Special
-Delimiter: 'dirty_blue . .' # Special
-StringDelimiter: 'dirty_blue . .' # Special
-SpecialComment: '' # Special
-Debug: '' # Special
+SpecialChar: ''
+Tag: ''
+Delimiter: 'dirty_blue . .'
+StringDelimiter: 'dirty_blue . .'
+SpecialComment: ''
+Debug: ''
 Underlined: ''
 Ignore: ''
 Error: '. dark_red i'
