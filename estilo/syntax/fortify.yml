@@ -36,6 +36,7 @@ FortifyTestPaneCmd: '@Comment'
 FortifyTestPaneFile: '@Title'
 FortifyTestPanePassed: 'green'
 FortifyTestPaneFailed: 'red'
+FortifyTestPaneBug: 'yellow'
 
 FortifyCategoryMapping: '@Title'
 

@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2019/11/05 22:18
+" Last Change: 2019/11/15 09:31
 " ===============================================================
 
 set background=dark
@@ -14,19 +14,6 @@ if exists("syntax_on")
 endif
 let g:colors_name="cobalt2"
 
-
-let Italic = ""
-if exists('g:cobalt2_italic')
-  let Italic = "italic"
-endif
-let g:cobalt2_italic = get(g:, 'cobalt2_italic', 0)
-
-let Bold = ""
-if exists('g:cobalt2_bold')
-  let Bold = "bold"
-endif
-
-let g:cobalt2_bold = get(g:, 'cobalt2_bold', 0)
 hi ALEVirtualTextError guifg=#FF0000 ctermfg=9
 hi ALEVirtualTextWarning guifg=#0088FF ctermfg=33
 hi ALEError guifg=#FF0000 ctermfg=9
@@ -36,7 +23,7 @@ hi ALEWarningSign guifg=#0088FF ctermfg=33
 hi Directory guifg=#668799 ctermfg=66
 hi ErrorMsg guibg=#902020 ctermbg=88
 hi VertSplit guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Folded guifg=#9E9E9E ctermfg=247 guibg=#444444 ctermbg=238 gui=Italic cterm=Italic
+hi Folded guifg=#9E9E9E ctermfg=247 guibg=#444444 ctermbg=238 gui=italic cterm=italic
 hi MatchParen guifg=#FFFFFF ctermfg=15 guibg=#0050A4 ctermbg=25
 hi MoreMsg guifg=#88FF88 ctermfg=120
 hi NonText guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -52,29 +39,29 @@ hi SpellBad guifg=#FFFFFF ctermfg=15 guibg=#FF0000 ctermbg=9 gui=NONE cterm=NONE
 hi SpellLocal guibg=#3AD900 ctermbg=76 gui=underline cterm=underline
 hi SpellCap guibg=#0050A4 ctermbg=25 gui=underline cterm=underline
 hi SpellRare guibg=#FF0000 ctermbg=9 gui=underline cterm=underline
-hi StatusLine guifg=#1C1C1C ctermfg=234 guibg=#CCCCCC ctermbg=252 gui=Italic cterm=Italic
-hi StatusLineNC guifg=#FFFFFF ctermfg=15 guibg=#444444 ctermbg=238 gui=Italic cterm=Italic
+hi StatusLine guifg=#1C1C1C ctermfg=234 guibg=#CCCCCC ctermbg=252 gui=italic cterm=italic
+hi StatusLineNC guifg=#FFFFFF ctermfg=15 guibg=#444444 ctermbg=238 gui=italic cterm=italic
 hi TabLine guifg=#FFFFFF ctermfg=15 guibg=#3A3A3A ctermbg=237 gui=underline cterm=underline
 hi TabLineFill guifg=#FFFFFF ctermfg=15 guibg=#9E9E9E ctermbg=247 gui=underline cterm=underline
-hi TabLineSel guifg=#3A3A3A ctermfg=237 guibg=#FFC600 ctermbg=220 gui=Bold,underline cterm=Bold,underline
-hi Title guifg=#3AD900 ctermfg=76 gui=Bold cterm=Bold
+hi TabLineSel guifg=#3A3A3A ctermfg=237 guibg=#FFC600 ctermbg=220 gui=bold,underline cterm=bold,underline
+hi Title guifg=#3AD900 ctermfg=76 gui=bold cterm=bold
 hi WildMenu guifg=#EB939A ctermfg=174 guibg=#3A3A3A ctermbg=237
-hi Comment guifg=#0088FF ctermfg=33 gui=Italic cterm=Italic
+hi Comment guifg=#0088FF ctermfg=33 gui=italic cterm=italic
 hi Constant guifg=#FF628C ctermfg=204
 hi String guifg=#3AD900 ctermfg=76
 hi Identifier guifg=#FF9A00 ctermfg=208
 hi Function guifg=#FFC600 ctermfg=220
 hi Statement guifg=#FF9A00 ctermfg=208
-hi Operator guifg=#0088FF ctermfg=33 gui=Italic cterm=Italic
+hi Operator guifg=#0088FF ctermfg=33 gui=italic cterm=italic
 hi PreProc guifg=#FF9A00 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Type guifg=#FFC600 ctermfg=220
 hi StorageClass guifg=#FF9A00 ctermfg=208
-hi Structure guifg=#0088FF ctermfg=33 gui=Italic cterm=Italic
+hi Structure guifg=#0088FF ctermfg=33 gui=italic cterm=italic
 hi Special guifg=#88FF88 ctermfg=120
 hi Delimiter guifg=#668799 ctermfg=66
 hi StringDelimiter guifg=#668799 ctermfg=66
-hi Error guibg=#902020 ctermbg=88 gui=Italic cterm=Italic
-hi Todo guibg=#0088FF ctermbg=33 gui=Italic cterm=Italic
+hi Error guibg=#902020 ctermbg=88 gui=italic cterm=italic
+hi Todo guibg=#0088FF ctermbg=33 gui=italic cterm=italic
 hi ColorColumn guibg=#020511 ctermbg=232
 hi Normal guifg=#FFFFFF ctermfg=15 guibg=#17252c ctermbg=235 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237
@@ -171,6 +158,7 @@ hi link FortifyTestPaneCmd Comment
 hi link FortifyTestPaneFile Title
 hi FortifyTestPanePassed guifg=#3AD900 ctermfg=76 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FortifyTestPaneFailed guifg=#FF0000 ctermfg=9 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FortifyTestPaneBug guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link FortifyCategoryMapping Title
 hi link FortifyDefinitionCharacterizationProperty Tag
 hi link FortifyDefinitionLineComment Comment
@@ -215,11 +203,6 @@ hi link FortifyStructuralRegexpMod Identifier
 hi link FortifyStructuralRegexpBackRef Identifier
 hi link FortifyStructuralRegexpGroup Identifier
 hi link FortifyStructuralRegexpCharClass Identifier
-hi FZF_fg guifg=#CCCCCC ctermfg=252 guibg=#3A3A3A ctermbg=237
-hi FZF_bg guibg=#020511 ctermbg=232
-hi FZF_fg_current guifg=#FF9A00 ctermfg=208
-hi FZF_bg_current guifg=#FFFFFF ctermfg=15 guibg=#17252c ctermbg=235 gui=NONE cterm=NONE
-hi FZF_fg_matched guifg=#0088FF ctermfg=33 gui=Italic cterm=Italic
 hi htmlItalic guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlEndTag guifg=#CCCCCC ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -339,6 +322,6 @@ hi xmlEqual guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 
 
 " ===================================
-" Generated by Estilo 1.4.1
+" Generated by Estilo 1.3.3
 " https://github.com/jacoborus/estilo
 " ===================================

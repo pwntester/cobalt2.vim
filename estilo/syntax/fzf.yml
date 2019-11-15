@@ -1,5 +1,0 @@
-FZF_fg: 'lightest_grey darkest_grey .'
-FZF_bg: '. darker_cobalt .'
-FZF_fg_current: 'dark_orange . .'
-FZF_bg_current: 'white cobalt'
-FZF_fg_matched: 'dark_blue . i'
