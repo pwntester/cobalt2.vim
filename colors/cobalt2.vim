@@ -4,7 +4,7 @@
 " URL: http://github.com/pwntester/vim-cobalt2
 " Author: Alvaro Muñoz (@pwntester)
 " License: MIT
-" Last Change: 2019/11/15 09:31
+" Last Change: 2019/11/19 11:09
 " ===============================================================
 
 set background=dark
@@ -67,7 +67,7 @@ hi Normal guifg=#FFFFFF ctermfg=15 guibg=#17252c ctermbg=235 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#3A3A3A ctermbg=237
 hi CursorColumn guibg=#3A3A3A ctermbg=237 gui=NONE cterm=NONE
 hi CursorLine guibg=#17252c ctermbg=235
-hi CursorLineNr guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE
+hi CursorLineNr guifg=#FFC600 ctermfg=220 guibg=NONE ctermbg=NONE
 hi FoldColumn guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignColumn guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LineNr guifg=#626262 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
