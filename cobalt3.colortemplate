@@ -1,0 +1,137 @@
+# vim: ft=colortemplate fdm=marker cc=22,42,60 et ts=2 sw=2
+
+# Information {{{
+Full name:   Cobalt3 
+Short name:  cobalt3
+Author:      Alvaro Muñoz <alvaro@pwntester.com>
+Maintainer:  Alvaro Muñoz <alvaro@pwntester.com>
+Description: My color scheme
+# }}}
+
+# Color palette {{{
+# Color name                GUI                  Base256        Base16
+Color: black			      #1C1C1C                      234         Black 
+Color: darkest_grey			#3A3A3A                      237          Grey
+Color: darker_grey			#444444                      238          Grey
+Color: dark_grey			  #626262                      241          Grey
+Color: light_grey			  #9E9E9E                      247      DarkGrey 
+Color: lightest_grey		#CCCCCC                      252      DarkGrey
+Color: white			      #FFFFFF                       15         White
+Color: dark_orange			#FF9A00                      208    DarkYellow
+Color: yellow			      #FFC600                      220    DarkYellow
+Color: light_yellow			#F2ED7F                      228   LightYellow 
+Color: green			      #3AD900                       76         Green
+Color: light_green			#88FF88                      120    LightGreen 
+Color: purple			      #967EFB                      105   DarkMagenta 
+Color: darker_cobalt		#020511                      232         Black 
+Color: cobalt			      #17252c                      235         Black 
+Color: darker_blue			#0050A4                       25      DarkBlue 
+Color: dark_blue			  #0088FF                       33      DarkBlue
+Color: blue			        #00AAFF                       39          Blue 
+Color: light_blue			  #80FCFF                      123      DarkCyan 
+Color: dirty_blue			  #668799                       66     LightBlue
+Color: dark_red			    #902020                       88       DarkRed
+Color: red			        #FF0000                        9           Red 
+Color: dark_pink			  #FF628C                      204  LightMagenta 
+Color: dirty_pink			  #EB939A                      174  LightMagenta
+# }}}
+
+# Terminal colors {{{
+# Vim by default does not define g:terminal_ansi_colors
+Term Colors: black dark_red green yellow dark_blue purple light_blue light_grey
+Term Colors: dark_grey red green yellow blue dark_pink light_blue white
+# }}}
+
+# Common linked groups {{{
+Character         -> Constant
+EndOfBuffer       -> NonText
+QuickFixLine      -> Search
+Boolean           -> Constant
+Conditional       -> Statement
+Define            -> PreProc
+Debug             -> Special
+Exception         -> Statement
+Float             -> Number
+Include           -> PreProc
+Keyword           -> Statement
+Label             -> Statement
+Macro             -> PreProc
+Number            -> Constant
+PreCondit         -> PreProc
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+Tag               -> Special
+Typedef           -> Type
+# }}}
+
+Background: dark
+
+# Default highlight groups for dark variant {{{
+
+Variant: gui
+
+Directory           dirty_blue          none
+ErrorMsg            none                dark_red 
+VertSplit           dark_grey           none
+Folded              light_grey          darker_grey         italic
+MatchParen          white               darker_blue 
+ModeMsg             none                none                bold
+MoreMsg             light_green         none
+NonText             dark_grey           none 
+PMenu               lightest_grey       darkest_grey
+PMenuSel            darkest_grey        yellow
+PmenuSbar           dark_grey           none
+PmenuThumb          lightest_grey       none
+Question            green               none
+Search              white               dark_blue
+IncSearch           white               dark_blue
+SpecialKey          darker_grey         black
+SpellBad            none                none                undercurl s=red
+SpellCap            none                none                undercurl s=blue
+SpellLocal          none                none                undercurl s=light_blue
+SpellRare           none                none                undercurl s=purple
+StatusLine          black               lightest_grey       italic
+StatusLineNC        white               darker_grey         italic
+TabLine             white               darkest_grey        underline
+TabLineFill         white               light_grey          underline
+TabLineSel          darkest_grey        yellow              bold,underline
+Title               green               none                bold
+WarningMsg          dark_red            none
+WildMenu            dirty_pink          darkest_grey
+Comment             dark_blue           none                italic
+Constant            dark_pink           none
+String              green               none
+Identifier          dark_orange         none
+Function            yellow              none
+Statement           dark_orange         none
+Operator            dark_blue           none                italic
+PreProc             dark_orange         none
+Type                yellow              none
+StorageClass        dark_orange         none
+Structure           dark_blue           none                italic
+Special             light_green         none
+Delimiter           dirty_blue          none
+Underlined          dirty_blue          none                underline
+Ignore              omit                omit
+Error               none                dark_red            italic
+Todo                none                dark_blue           italic
+ColorColumn         none                darker_cobalt
+Conceal             omit                omit 
+Normal              white               cobalt
+Cursor              none                darkest_grey
+CursorIM            omit                omit
+CursorColumn        none                darkest_grey
+CursorLine          none                cobalt
+CursorLineNr        yellow              none
+FoldColumn          dark_grey           none
+SignColumn          dark_grey           none
+LineNr              dark_grey           none
+Visual              white               darker_blue
+VisualNOS           none                none                underline,bold
+
+Variant: 256 8
+Normal              white               cobalt
+
+# }}}
+
