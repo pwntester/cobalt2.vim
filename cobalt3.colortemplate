@@ -28,8 +28,8 @@ Color: cobalt			      #17252c                      235         Black
 Color: darker_blue			#0050A4                       25      DarkBlue 
 Color: dark_blue			  #0088FF                       33      DarkBlue
 Color: blue			        #00AAFF                       39          Blue 
-Color: light_blue			  #80FCFF                      123      DarkCyan 
-Color: dirty_blue			  #668799                       66     LightBlue
+Color: light_blue			  #80FCFF                      123     LightBlue 
+Color: dirty_blue			  #668799                       66      DarkCyan 
 Color: dark_red			    #902020                       88       DarkRed
 Color: red			        #FF0000                        9           Red 
 Color: dark_pink			  #FF628C                      204  LightMagenta 
@@ -38,8 +38,8 @@ Color: dirty_pink			  #EB939A                      174  LightMagenta
 
 # Terminal colors {{{
 # Vim by default does not define g:terminal_ansi_colors
-Term Colors: black dark_red green yellow dark_blue purple light_blue light_grey
-Term Colors: dark_grey red green yellow blue dark_pink light_blue white
+Term Colors: darker_cobalt dark_red green yellow darker_blue purple light_blue lightest_grey
+Term Colors: dark_grey red light_green light_yellow dark_blue dark_pink dirty_blue white
 # }}}
 
 # Common linked groups {{{
