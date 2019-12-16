@@ -1,11 +1,11 @@
-# vim: ft=colortemplate fdm=marker cc=22,42,60 et ts=2 sw=2
+# vim: ft=colortemplate et ts=2 sw=2
 
 # Information {{{
 Full name:   Cobalt3 
 Short name:  cobalt3
 Author:      Alvaro Muñoz <alvaro@pwntester.com>
 Maintainer:  Alvaro Muñoz <alvaro@pwntester.com>
-Description: My color scheme
+Description: Cobange
 # }}}
 
 # Color palette {{{
@@ -97,7 +97,7 @@ TabLine             white               darkest_grey        underline
 TabLineFill         white               light_grey          underline
 TabLineSel          darkest_grey        yellow              bold,underline
 Title               green               none                bold
-WarningMsg          dark_red            none
+WarningMsg          red                 none
 WildMenu            dirty_pink          darkest_grey
 Comment             dark_blue           none                italic
 Constant            dark_pink           none
@@ -129,6 +129,57 @@ SignColumn          dark_grey           none
 LineNr              dark_grey           none
 Visual              white               darker_blue
 VisualNOS           none                none                underline,bold
+DiffAdd             black               green
+DiffChange          black               dark_blue
+DiffText            black               dark_blue
+DiffDelete          white               red
+
+# XML
+xmlTag              lightest_grey       none
+xmlTagName          light_blue          none
+xmlEndTag           light_blue          none
+xmlAttrib           dark_orange         none
+xmlString           yellow              none
+xmlEqual            yellow              none
+xmlDocTypeDecl      yellow              none
+xmlInlineDTD        yellow              none
+xmlTodo             -> Todo
+xmlNamespace        -> Tag
+xmlEntity           -> Statement
+xmlEntityPunct      -> Type
+xmlAttribPunct      -> Comment
+xmlComment          -> Comment
+xmlCommentStart     -> Comment
+xmlCommentPart      -> Comment
+xmlCommentError     -> Error
+xmlError            -> Error
+xmlProcessingDelim  -> Comment
+xmlProcessing       -> Type
+xmlCdata            -> String
+xmlCdataCdata       -> Statement
+xmlCdataStart       -> Type
+xmlCdataEnd         -> Type
+xmlDocTypeKeyword   -> Statement
+
+# DEFX
+Defx_filename_root  dirty_blue          omit
+
+# DENITE
+deniteMatched       blue                none
+deniteMatchedChar   blue                none
+
+# LINEDIFF
+DiffAdded           black               green
+DiffRemoved         white               red
+
+# NERDTREE
+NERDTreeHelp        darker_blue         none
+NERDTreeUp          darker_blue         none
+NERDTreeOpenable    yellow              none
+NERDTreeClosable    red                 none
+NERDTreeDir         yellow              none
+NERDTreeDirSlash    ->                  Ignore
+NERDTreeExecFile    purple              none
 
 Variant: 256 8
 Normal              white               cobalt
