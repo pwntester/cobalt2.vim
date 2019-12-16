@@ -6,38 +6,38 @@ Short name:  cobalt3
 Author:      Alvaro Muñoz <alvaro@pwntester.com>
 Maintainer:  Alvaro Muñoz <alvaro@pwntester.com>
 Description: Cobange
+Background:  dark
+Neovim:      yes
 # }}}
 
 # Color palette {{{
-# Color name                GUI                  Base256        Base16
-Color: black			      #1C1C1C                      234         Black 
-Color: darkest_grey			#3A3A3A                      237          Grey
-Color: darker_grey			#444444                      238          Grey
-Color: dark_grey			  #626262                      241          Grey
-Color: light_grey			  #9E9E9E                      247      DarkGrey 
-Color: lightest_grey		#CCCCCC                      252      DarkGrey
-Color: white			      #FFFFFF                       15         White
-Color: dark_orange			#FF9A00                      208    DarkYellow
-Color: yellow			      #FFC600                      220    DarkYellow
-Color: light_yellow			#F2ED7F                      228   LightYellow 
-Color: green			      #3AD900                       76         Green
-Color: light_green			#88FF88                      120    LightGreen 
-Color: purple			      #967EFB                      105   DarkMagenta 
-Color: darker_cobalt		#020511                      232         Black 
-Color: cobalt			      #17252c                      235         Black 
-Color: darker_blue			#0050A4                       25      DarkBlue 
-Color: dark_blue			  #0088FF                       33      DarkBlue
-Color: blue			        #00AAFF                       39          Blue 
-Color: light_blue			  #80FCFF                      123     LightBlue 
-Color: dirty_blue			  #668799                       66      DarkCyan 
-Color: dark_red			    #902020                       88       DarkRed
-Color: red			        #FF0000                        9           Red 
-Color: dark_pink			  #FF628C                      204  LightMagenta 
-Color: dirty_pink			  #EB939A                      174  LightMagenta
+Color: black			      #1C1C1C ~
+Color: darkest_grey			#3A3A3A ~
+Color: darker_grey			#444444 ~
+Color: dark_grey			  #626262 ~
+Color: light_grey			  #9E9E9E ~
+Color: lightest_grey		#CCCCCC ~
+Color: white			      #FFFFFF ~
+Color: dark_orange			#FF9A00 ~
+Color: yellow			      #FFC600 ~
+Color: light_yellow			#F2ED7F ~
+Color: green			      #3AD900 ~
+Color: light_green			#88FF88 ~
+Color: purple			      #967EFB ~
+Color: darker_cobalt		#020511 ~
+Color: cobalt			      #17252c ~
+Color: darker_blue			#0050A4 ~
+Color: dark_blue			  #0088FF ~
+Color: blue			        #00AAFF ~
+Color: light_blue			  #80FCFF ~
+Color: dirty_blue			  #668799 ~
+Color: dark_red			    #902020 ~
+Color: red			        #FF0000 ~
+Color: dark_pink			  #FF628C ~
+Color: dirty_pink			  #EB939A ~
 # }}}
 
 # Terminal colors {{{
-# Vim by default does not define g:terminal_ansi_colors
 Term Colors: darker_cobalt dark_red green yellow darker_blue purple light_blue lightest_grey
 Term Colors: dark_grey red light_green light_yellow dark_blue dark_pink dirty_blue white
 # }}}
@@ -65,12 +65,7 @@ Tag               -> Special
 Typedef           -> Type
 # }}}
 
-Background: dark
-
-# Default highlight groups for dark variant {{{
-
-Variant: gui
-
+# Default highlight groups {{{
 Directory           dirty_blue          none
 ErrorMsg            none                dark_red 
 VertSplit           dark_grey           none
@@ -180,9 +175,6 @@ NERDTreeClosable    red                 none
 NERDTreeDir         yellow              none
 NERDTreeDirSlash    ->                  Ignore
 NERDTreeExecFile    purple              none
-
-Variant: 256 8
-Normal              white               cobalt
 
 # }}}
 
